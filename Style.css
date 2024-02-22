@@ -57,7 +57,7 @@ select{
     font-size: 25px;
     height: 40px;
     border-radius: 6px;
-    width: 500px;
+    width: 90%;
 }
 .center:hover{
     background-color: #010d53;
