@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<title> Job Form </title>
+<link rel="website icon" type="jpg" href="logo.PNG">
+
+
+
+<head> 
+    
+    <link rel="stylesheet" href="Style.css">
+    <img src="head.png" alt="" class="centerimg">
+   
+</head>
+<body>
+    
+ 
+
+<form action="https://formsubmit.co/salilv1103@gmail.com" method="POST">
+        <label for="fname">First Name*</label>
+        <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
+        <label for="lname">Last Name* </label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name" required><br>
+        <label for="email">Email ID*</label>
+        <input type="email" id="email" name="email" placeholder="Email ID" required><br>
+        <label for="number">Phone Number*</label>
+        <input type="number" id="phno" name="phno" placeholder="Phone Number" required>
+        <br>
+            
+            <label for="Position">Position You're Interested In</label>
+            <select name="Position" id="Position" aria-placeholder="Position">
+                <option value=""disable selected hidden>Intrested Position</option>
+                <option value="Cybersecurity Policy Analyst / ISSO">Cybersecurity Policy Analyst / ISSO</option>
+                <option value="System Administrator">System Administrator</option>
+                <option value="Workday Functional Lead and Workday Technical Lead">Workday Functional Lead and Workday Technical Lead</option>
+                <option value="Oracle EBS Obligations Analyst">Oracle EBS Obligations Analyst</option>
+                <option value="Database Developer">Database Developer</option>
+                
+                <br>
+            </select>
+           
+                <br>
+            <input type="file" id="actual-btn" hidden/>
+            <label for="actual-btn" class="Upload">Upload your Resume</label>
+            <span id="file-chosen">No file chosen</span>
+            <script>
+                const actualBtn = document.getElementById('actual-btn');
+        
+                const fileChosen = document.getElementById('file-chosen');
+        
+                actualBtn.addEventListener('change', function(){
+                fileChosen.textContent = this.files[0].name})
+            </script><br>
+
+            <button type="submit" class="center">Submit</button>
+           
+              
+</form>
+</body>
+<footer>
+<div class="footer">
+  <ul class="social-icons">
+    
+    <li><a href="Mailto:dahoon@creativegc.com" target="_blank">Mail</a> </li>
+    <li><a href="tel:8237010315">8237010315</a> target="_blank">Call</a></li>
+    <li><a href="https://www.linkedin.com/company/68571575/admin/feed/posts/" target="_blank">LinkedIn</a></li>
+  </ul>
+  <p> Copyrights © 2020 All Rights Reserved by Creative Global Consulting.</p>
+  
+  
+
+</div>
+
+</footer>
+</html>
+
